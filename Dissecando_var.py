@@ -1,0 +1,10 @@
+# Dissecando o dado de entrada
+v = input('Digite algo ')
+print(f'O tipo primitivo é {type(v)}')
+print(f"O valor digitado só tem espaços? {v.isspace()}")
+print(f"O valor digitado é um número? {v.isnumeric()}")
+print(f"O valor digitado é um alfabético? {v.isalpha()}")
+print(f"O valor digitado é um alfanumérico? {v.isalnum()}")
+print(f"O valor digitado está em maiúsculas? {v.isupper()}")
+print(f"O valor digitado está em minusculas? {v.islower()}")
+print(f"O valor digitado está capitalizado? {v[0].isupper()}")
