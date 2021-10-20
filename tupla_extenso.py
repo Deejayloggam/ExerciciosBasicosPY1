@@ -6,5 +6,5 @@ b = ('ZERO', 'UM', 'DOIS', 'TRÊS', 'QUATRO', 'CINCO', 'SEIS', 'SETE', 'OITO', '
 c = int(input('Digite um número de 1 à 20 para obte-lo por extenso: '))
 while c > 20 or c < 0:
      print('INVALIDO')
-     c = int(input('Digite um número de 1 à 20 para obte-lo por extenso: '))
+     c = int(input('Digite um número de 0 à 20 para obte-lo por extenso: '))
 print(b[a.index(c)])
